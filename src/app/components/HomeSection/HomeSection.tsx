@@ -4,6 +4,8 @@ import React from "react";
 import "./HomeSection.css";
 
 const HomeSection = () => {
+  const applyFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLScvF9FLuBZEP3YGLbDPiHJ_T6x1wNPmBufIaUICBz3h2j-4qQ/viewform?usp=send_form";
+
   return (
     <section className="hero">
       <div className="hero-overlay" />
@@ -16,8 +18,15 @@ const HomeSection = () => {
           practical ministry experience in a beautiful island setting.
         </p>
         <div className="hero-buttons">
-          <button className="btn-primary">Apply Today</button>
-          <button className="btn-secondary">Learn More</button>
+          <a 
+            href={applyFormUrl} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-primary"
+          >
+            Apply Today
+          </a>
+          {/* <button className="btn-secondary">Learn More</button> */}
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   height: 75vh;
-  background: url('/warrer.jpg') no-repeat center center/cover;
+  background: url('/discipleback.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #111;
+  color: #fff;
 }
 
 .hero-subtitle {

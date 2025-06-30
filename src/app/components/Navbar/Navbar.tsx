@@ -6,6 +6,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
+  const applyFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLScvF9FLuBZEP3YGLbDPiHJ_T6x1wNPmBufIaUICBz3h2j-4qQ/viewform?usp=send_form"
 
   return (
     <nav className="navbar">
@@ -24,12 +25,22 @@ const Navbar = () => {
           <a href="#">About</a>
           <a href="#">Program</a>
           <a href="#">Testimonials</a>
-          <a href="#" className="apply-button mobile-only">
+          <a 
+            href={applyFormUrl} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="apply-button mobile-only"
+          >
             Apply Now
           </a>
         </div>
 
-        <a href="#" className="apply-button desktop-only">
+        <a 
+          href={applyFormUrl} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="apply-button desktop-only"
+        >
           Apply Now
         </a>
 
