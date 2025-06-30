@@ -52,7 +52,7 @@ const Courses = () => {
             The School of Discipleship is a Five-Month comprehensive program that
             covers the fundamentals of Christian Discipleship, including spiritual
             formation and leadership development. The program is structured to deepen
-            your understanding of God's words and make you grow therein.
+            your understanding of God&apos;s words and make you grow therein.
           </p>
         </div>
         
